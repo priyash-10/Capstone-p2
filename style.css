@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+.container{
+    position: absolute;
+}
+h2{
+    color: palevioletred;
+}
+h3{
+    color: palevioletred;
+}
+p{
+    text-align: center;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: center;
+    row-gap: 2rem;
+}
+.contact-me{
+    text-align: center;
+}
+.footer {
+    background-color: rgb(237, 132, 167);
+    padding: 50px 0 20px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}

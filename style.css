@@ -3,9 +3,6 @@ body {
     text-align: center;
     font-family: "Merriweather", serif;
 }
-.container{
-    position: absolute;
-}
 h2{
     color: palevioletred;
 }
